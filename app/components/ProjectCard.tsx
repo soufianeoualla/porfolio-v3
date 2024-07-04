@@ -39,12 +39,14 @@ export const ProjectCard = ({ project, index }: Props) => {
           <a
             className="pb-1 px-1 border-b-2 hover:border-b-4 hover:border-indigo-600 font-bold text-white text-lg"
             href={project.demo}
+            target="_blank"
           >
             Live Demo
           </a>
           <a
             className="pb-1 px-1 border-b-2 hover:border-b-4 hover:border-indigo-600 font-bold text-white text-lg"
             href={project.github}
+            target="_blank"
           >
             View Code
           </a>
