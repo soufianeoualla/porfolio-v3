@@ -10,10 +10,14 @@ export const Projects = () => {
         <h2 className="text-4xl sm:text-3xl font-bold text-white">
           Recent <br className="hidden sm:block" /> Projects
         </h2>
-        <Link href={'https://www.linkedin.com/in/soufianeoualla/'} target="_blank" className="text-white w-36 h-36 sm:w-24 sm:h-24 rounded-full flex justify-center items-center flex-col border-[1.5px] font-medium text-base sm:text-sm tracking-[-2%] border-white hover:bg-indigo-600">
+        <Link
+          href={"https://github.com/soufianeoualla/"}
+          target="_blank"
+          className="text-white hover:text-indigo-600 sm:w-24 sm:h-24  flex justify-center items-center flex-col  font-medium text-base sm:text-sm tracking-[-2%] group "
+        >
           {" "}
           View All{" "}
-          <span className="ml-6 pb-[1px] border-b font-semibold">Projects</span>
+          <span className="ml-6 pb-[1px] border-b font-semibold group-hover:border-b-indigo-600">Projects</span>
         </Link>
       </div>
       <div className="grid grid-cols-2 gap-8 sm:grid-cols-1">

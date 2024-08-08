@@ -1,5 +1,26 @@
 export const projects = [
   {
+    id: 5,
+    title: "Product feedback app",
+    demo: "https://product-feedback-tan-one.vercel.app/",
+    github: "https://github.com/soufianeoualla/product-feedback",
+    image:
+      "https://res.cloudinary.com/dultrr5zc/image/upload/v1723128172/ll8aisdgbkawtzpg4nex.jpg",
+
+    stack: [
+      "html",
+      "css",
+      "tailwind css",
+      "typeScript",
+      "Next js",
+      "React",
+      "Prisma ORM",
+      "posgresql",
+      "zustand",
+      "tRPC",
+    ],
+  },
+  {
     id: 1,
     title: "E-Commerce Web App",
     demo: "http://ecommerce.soufian.me/",
